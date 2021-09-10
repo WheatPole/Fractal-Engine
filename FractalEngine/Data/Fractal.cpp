@@ -52,27 +52,6 @@ void Recur(GLFWwindow* window, Renderer renderer, Shader shader, int start, int&
 
 		for (size_t k = 0; k < end.size(); k++) {
 
-			
-			
-
-			//A ----------------------------- B
-			//  |                           |
-			//  |                           |
-			//  |                           |
-			//  |                           |
-			//  |                           |
-			//  |                         C |-------------- D
-			//  |                           |             |
-			//  |                           |             |
-			//  |                           |           E |------- F
-			//  |                           |             |      |
-			//  |                           |             |      |
-			//  --------------------------------------------------
-			//
-
-			//calculate the next point on the line (if you have A calculate B), and compare AB and CD to get EF
-			//AB + (C - B)
-
 			std::vector<std::tuple<float, float, float, float>> temp;
 
 			for (size_t i = 0; i < begin.size(); i++) {
