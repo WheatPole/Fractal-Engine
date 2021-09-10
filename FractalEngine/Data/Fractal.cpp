@@ -100,7 +100,6 @@ void Recur(GLFWwindow* window, Renderer renderer, Shader shader, int start, int&
 					float lenendy2 = (endy12 - endy11);
 
 
-
 					float lenendx = (endx2 - endx1);
 					float lenbeginx = (beginx2 - beginx1);
 
